@@ -902,7 +902,7 @@
          "name":"CoWebsite",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -972,7 +972,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1054,7 +1054,7 @@
          "name":"Wall",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1136,7 +1136,7 @@
          "name":"Furnitures",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1153,7 +1153,7 @@
                  "value":"{{^exitEastURL}}1{{\/exitEastURL}}"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":67,
          "x":0,
          "y":0
@@ -1171,7 +1171,7 @@
                  "value":"{{^exitWestURL}}1{{\/exitWestURL}}"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":67,
          "x":0,
          "y":0
@@ -1209,7 +1209,7 @@
                  "value":"exitEastConfig"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":67,
          "x":0,
          "y":0
@@ -1247,7 +1247,7 @@
                  "value":"exitWestConfig"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":67,
          "x":0,
          "y":0
@@ -1259,7 +1259,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1709,7 +1709,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -1791,7 +1791,7 @@
          "name":"Above",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
