@@ -3696,6 +3696,19 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "columns":40,
+         "firstgid":22406,
+         "image":"src\/assets\/beach\/Deco1.png",
+         "imageheight":1504,
+         "imagewidth":1280,
+         "margin":0,
+         "name":"Deco1",
+         "spacing":0,
+         "tilecount":1880,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
