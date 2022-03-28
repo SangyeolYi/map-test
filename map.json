@@ -233,7 +233,7 @@
                         {
                          "name":"jitsiTrigger",
                          "type":"string",
-                         "value":"onaction"
+                         "value":""
                         }, 
                         {
                          "name":"jitsiTriggerMessage",
@@ -300,7 +300,7 @@
                         {
                          "name":"jitsiTrigger",
                          "type":"string",
-                         "value":"onaction"
+                         "value":""
                         }, 
                         {
                          "name":"jitsiTriggerMessage",
@@ -333,7 +333,7 @@
                         {
                          "name":"jitsiTrigger",
                          "type":"string",
-                         "value":"onaction"
+                         "value":""
                         }, 
                         {
                          "name":"jitsiTriggerMessage",
@@ -366,7 +366,7 @@
                         {
                          "name":"jitsiTrigger",
                          "type":"string",
-                         "value":"onaction"
+                         "value":""
                         }, 
                         {
                          "name":"jitsiTriggerMessage",
