@@ -1183,6 +1183,17 @@
                  "y":567
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"allowApi",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
+                 "name":"url",
+                 "type":"string",
+                 "value":"https:\/\/katariba.online\/files\/rk\/jitsiRoom1.html"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
