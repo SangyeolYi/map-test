@@ -365,7 +365,7 @@
                          "value":"j-kokorokarta"
                         }],
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":70,
                  "x":0,
                  "y":0
@@ -523,7 +523,7 @@
                  "name":"Group 2",
                  "opacity":1,
                  "type":"group",
-                 "visible":false,
+                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -842,7 +842,7 @@
                  "name":"zoomURL",
                  "opacity":1,
                  "type":"group",
-                 "visible":false,
+                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -860,7 +860,7 @@
                          "value":true
                         }],
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1080,7 +1080,7 @@
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":false,
+                 "visible":true,
                  "x":0,
                  "y":0
                 }, 
@@ -1091,7 +1091,7 @@
                  "name":"block",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":70,
                  "x":0,
                  "y":0
@@ -3109,19 +3109,6 @@
          "name":"WA_User_Interface",
          "spacing":0,
          "tilecount":273,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
-         "columns":72,
-         "firstgid":22406,
-         "image":"..\/..\/..\/Downloads\/great-place-to-work-master\/src\/animations\/ANIMATIONS.png",
-         "imageheight":480,
-         "imagewidth":2304,
-         "margin":0,
-         "name":"ANIMATIONS",
-         "spacing":0,
-         "tilecount":1080,
          "tileheight":32,
          "tilewidth":32
         }],
