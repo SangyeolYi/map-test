@@ -3099,19 +3099,6 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":72,
-         "firstgid":22406,
-         "image":"..\/..\/..\/Downloads\/great-place-to-work-master\/src\/animations\/ANIMATIONS.png",
-         "imageheight":480,
-         "imagewidth":2304,
-         "margin":0,
-         "name":"ANIMATIONS",
-         "spacing":0,
-         "tilecount":1080,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
