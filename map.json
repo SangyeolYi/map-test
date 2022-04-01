@@ -271,11 +271,6 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"allowApi",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"j-sleore"
@@ -1131,11 +1126,6 @@
          "name":"jaas",
          "opacity":1,
          "properties":[
-                {
-                 "name":"allowApi",
-                 "type":"bool",
-                 "value":true
-                }, 
                 {
                  "name":"openWebsite",
                  "type":"string",
