@@ -1200,12 +1200,12 @@
                 {
                  "name":"allowApi",
                  "type":"bool",
-                 "value":false
+                 "value":true
                 }, 
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/katariba.online\/files\/rk\/jitsiRoom1.html"
+                 "value":"https:\/\/jitsi.katariba.online\/globaljsleore"
                 }, 
                 {
                  "name":"openWebsitePolicy",
@@ -1213,7 +1213,7 @@
                  "value":"camera *;microphone *"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":70,
          "x":0,
          "y":0
