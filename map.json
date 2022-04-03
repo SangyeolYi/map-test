@@ -1203,6 +1203,11 @@
                  "value":true
                 }, 
                 {
+                 "name":"openTab",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/jitsi.katariba.online\/globaljsleore"
