@@ -23,6 +23,40 @@ WA.onInit().then(() => {
 }).catch(e => console.error(e));
 
 
+let currentPopup: any = undefined;
+let currentZone: string;
+
+const config = [
+    {
+        zone: 'needHelp',
+        message: 'Do you need some guidance? We are happy to help you out.',
+        cta: [
+            {
+                label: 'Meet us',
+                className: 'primary',
+                callback: () => WA.openTab('https://play.staging.workadventu.re/@/tcm/workadventure/wa-village'),
+            }
+        ]
+    },
+    {
+        zone: 'followUs',
+        message: 'Hey! Have you already started following us?',
+        cta: [
+            {
+                label: 'LinkedIn',
+                className: 'primary',
+                callback: () => WA.openTab('https://www.linkedin.com/company/workadventu-re'),
+            },
+            {
+                label: 'Twitter',
+                className: 'primary',
+                callback: () => WA.openTab('https://twitter.com/workadventure_'),
+            }
+        ]
+    },
+]
+
+
 WA.onEnterZone('needHelp', () => {
     currentZone = 'needHelp'
     openPopup(currentZone, currentZone + 'Popup')
@@ -50,6 +84,8 @@ function closePopup(){
         currentPopup = undefined;
     }
 }
+
+
 
 WA.onInit().then(() => {
     console.log('Scripting API ready');
