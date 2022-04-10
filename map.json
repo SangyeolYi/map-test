@@ -3283,19 +3283,6 @@
          "tilecount":273,
          "tileheight":32,
          "tilewidth":32
-        }, 
-        {
-         "columns":12,
-         "firstgid":22406,
-         "image":"..\/starter\/src\/assets\/WA_Decoration.png",
-         "imageheight":272,
-         "imagewidth":408,
-         "margin":0,
-         "name":"WA_Decoration",
-         "spacing":0,
-         "tilecount":0,
-         "tileheight":32,
-         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
