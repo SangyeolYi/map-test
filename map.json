@@ -1356,12 +1356,12 @@
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/workadventure.github.io\/university\/map.json"
+         "value":"https:\/\/sangyeolyi.github.io\/roomk-guild-map\/"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"University"
+         "value":"roomKGuild"
         }, 
         {
          "name":"script",
