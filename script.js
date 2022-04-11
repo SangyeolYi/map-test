@@ -888,7 +888,7 @@ WA.onInit().then(() => {
         
     WA.room.onEnterLayer('zone/red/red-melonpann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
             }
