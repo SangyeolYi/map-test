@@ -886,13 +886,15 @@ WA.onInit().then(() => {
         var ua = window.navigator.userAgent.toLowerCase();
         
 
-        if(ua.indexOf("10_") !== -1) {
-            WA.nav.goToPage('https://www.wikipedia.org/');
-            // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-        }else if(ua.indexOf("mac os x") !== -1) {
-            WA.nav.goToPage('https://google.com/');
-            // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-        }else if(ua.indexOf("android") !== -1 && ua.indexOf("6.") !== -1) {
+        // if(ua.indexOf("10_") !== -1) {
+        //     WA.nav.goToPage('https://www.wikipedia.org/');
+        //     // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
+        // }else if(ua.indexOf("mac os x") !== -1) {
+        //     WA.nav.goToPage('https://google.com/');
+        //     // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
+        // }else 
+        
+        if(ua.indexOf("android") !== -1 && ua.indexOf("6.") !== -1) {
             WA.nav.goToPage('https://jitsi.katariba.online/globaljsleore');
             // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
         }
