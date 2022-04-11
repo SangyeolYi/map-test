@@ -900,7 +900,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('zone/red/red-rollcake').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
             }
@@ -912,7 +912,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('zone/red/red-creampann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcreampann#userInfo.displayName="'+ userName + '"');
             }
@@ -922,9 +922,9 @@ WA.onInit().then(() => {
         triggerMessage.remove();
     })
 
-    WA.room.onEnterLayer('red/red-shiopann').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-shiopann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkshiopann#userInfo.displayName="'+ userName + '"');
             }
@@ -936,7 +936,7 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('zone/red/red-cinnamonroll').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcinnamonroll#userInfo.displayName="'+ userName + '"');
             }
@@ -947,7 +947,7 @@ WA.onInit().then(() => {
     })
     WA.room.onEnterLayer('zone/red/red-currypann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcurrypann#userInfo.displayName="'+ userName + '"');
             }
@@ -958,7 +958,7 @@ WA.onInit().then(() => {
     })
     WA.room.onEnterLayer('zone/red/red-chocolatecookie').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "タブレット利用者はこっちをタッチして部屋に移動してください",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkchocolatecookie#userInfo.displayName="'+ userName + '"');
             }
