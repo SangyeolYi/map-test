@@ -879,11 +879,13 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
     let ua = window.navigator.userAgent.toLowerCase();
+    let userName = WA.player.name
 
-
-    WA.room.onEnterLayer('myzone').subscribe(() => {
+    WA.room.onEnterLayer('red-melonpann').subscribe(() => {
         
-        WA.nav.goToPage('https://www.wikipedia.org/');
+        
+
+        WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
 
         // if(ua.indexOf("android 6.") !== -1) {
         
