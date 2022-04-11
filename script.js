@@ -885,14 +885,19 @@ WA.onInit().then(() => {
         
 
     // }
+    let triggerMessage
 
     WA.room.onEnterLayer('red-melonpann').subscribe(() => {
-        const triggerMessage = WA.ui.displayActionMessage({
+        triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
             }
         })
+    })
+
+    WA.room.onLeaveLayer('red-melonpann').subscribe(() => {
+        triggerMessage.remove();
     })
 
     // WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
