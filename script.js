@@ -887,7 +887,7 @@ WA.onInit().then(() => {
     // }
     let triggerMessage
 
-    WA.room.onEnterLayer('red/red-melonpann').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-melonpann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -895,11 +895,11 @@ WA.onInit().then(() => {
             }
         })
     })
-    WA.room.onLeaveLayer('red-melonpann').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-melonpann').subscribe(() => {
         triggerMessage.remove();
     })
 
-    WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-rollcake').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -907,11 +907,11 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-melonpann').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-rollcake').subscribe(() => {
         triggerMessage.remove();
     })
 
-    WA.room.onEnterLayer('red/red-creampann').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-creampann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -919,7 +919,7 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-creampann').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-creampann').subscribe(() => {
         triggerMessage.remove();
     })
 
@@ -931,11 +931,11 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-shiopann').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-shiopann').subscribe(() => {
         triggerMessage.remove();
     })
 
-    WA.room.onEnterLayer('red/red-cinnamonroll').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-cinnamonroll').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -943,10 +943,10 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-cinnamonroll').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-cinnamonroll').subscribe(() => {
         triggerMessage.remove();
     })
-    WA.room.onEnterLayer('red/red-currypann').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-currypann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -954,10 +954,10 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-currypann').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-currypann').subscribe(() => {
         triggerMessage.remove();
     })
-    WA.room.onEnterLayer('red/red-chocolatecookie').subscribe(() => {
+    WA.room.onEnterLayer('zone/red/red-chocolatecookie').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -965,7 +965,7 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('red-chocolatecookie').subscribe(() => {
+    WA.room.onLeaveLayer('zone/red/red-chocolatecookie').subscribe(() => {
         triggerMessage.remove();
     })
 
@@ -974,7 +974,7 @@ WA.onInit().then(() => {
     
 
 
-    WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
+    WA.room.onEnterLayer('zone/zoomURL/zoom36').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "SpaceキーかタッチでZoomに移動します",
             callback: () => {
@@ -982,7 +982,7 @@ WA.onInit().then(() => {
             }
         });
     })
-    WA.room.onLeaveLayer('zoomURL/zoom36').subscribe(() => {
+    WA.room.onLeaveLayer('zone/zoomURL/zoom36').subscribe(() => {
         triggerMessage.remove();
     })
 
