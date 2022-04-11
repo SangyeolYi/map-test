@@ -879,7 +879,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
     let ua = window.navigator.userAgent.toLowerCase();
-    let userName = WA.player.name
+    // let userName = WA.player.name
 
     WA.room.onEnterLayer('red-melonpann').subscribe(() => {
         
@@ -892,7 +892,7 @@ WA.onInit().then(() => {
         const triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
-                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann');
                 // WA.chat.sendChatMessage("confirmed", "trigger message logic")
             }
         });
