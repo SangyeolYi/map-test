@@ -947,6 +947,20 @@ WA.onInit().then(() => {
         });
     })
 
+    
+
+
+
+
+    WA.room.onEnterLayer('zoom36').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "SpaceキーかタッチでZoomに移動します",
+            callback: () => {
+                WA.nav.goToPage('http://zoom36.katariba.in');
+            }
+        });
+    })
+
     // meeting-refererence#userInfo.displayName="nwoodhouse"
 
     // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
