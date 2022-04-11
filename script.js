@@ -890,7 +890,7 @@ WA.onInit().then(() => {
         // }
 
         const triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
+            message: "SSSSSSpaceキーかタッチで参加できます",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
                 // WA.chat.sendChatMessage("confirmed", "trigger message logic")
