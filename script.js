@@ -888,8 +888,8 @@ WA.onInit().then(() => {
         
 
         // }
-        
-        WA.ui.displayActionMessage({
+
+        const triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
