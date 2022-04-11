@@ -878,32 +878,31 @@ WA.ui.registerMenuCommand('menu test', {
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
-    
-    WA.room.onEnterLayer('myZone').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        
-        var ua = window.navigator.userAgent.toLowerCase();
-        
+    let ua = window.navigator.userAgent.toLowerCase();
 
-        // if(ua.indexOf("10_") !== -1) {
+
+    WA.room.onEnterLayer('redirect-roomk-melonpann').subscribe(() => {
+        // if(ua.indexOf("android 6.") !== -1) {
         //     WA.nav.goToPage('https://www.wikipedia.org/');
-        //     // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-        // }else if(ua.indexOf("mac os x") !== -1) {
-        //     WA.nav.goToPage('https://google.com/');
-        //     // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-        // }else 
-        
-        if(ua.indexOf("android 6.") !== -1) {
+        // }
+
+
+        // WA.ui.displayActionMessage({
+        //     message: string,
+        //     callback: () => void,
+        //     type?: "message"|"warning",
+        // }): ActionMessage
+
+
+        if(ua.indexOf("macintosh") !== -1) {
             WA.nav.goToPage('https://www.wikipedia.org/');
-            // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
-        }else if(ua.indexOf("android ") !== -1 && ua.indexOf("6.") !== -1) {
-            WA.nav.goToPage('https://jitsi.katariba.online/globaljsleore');
-            // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
         }
         
-        // WA.nav.goToPage('https://www.wikipedia.org/');
+
+        
     })
+
+    // meeting-refererence#userInfo.displayName="nwoodhouse"
 
     // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
