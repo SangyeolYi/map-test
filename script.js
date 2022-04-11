@@ -878,55 +878,30 @@
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
-    // let ua = window.navigator.userAgent.toLowerCase();
-    // let userName = WA.player.name
+    let ua = window.navigator.userAgent.toLowerCase();
+    let userName = WA.player.name
+    // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
+    // if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
+        
+
+    // }
 
     WA.room.onEnterLayer('red-melonpann').subscribe(() => {
-        
-        // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
-        // if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
-        
-
-        // }
-
         const triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
-                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann');
-                // WA.chat.sendChatMessage("confirmed", "trigger message logic")
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
             }
         });
-        
-        // setTimeout(() => {
-        //     // later
-        //     triggerMessage.remove();
-        // }, 1000)
+    })
 
-
-        // WA.ui.displayActionMessage({
-        //     message: "SSSSSSpaceキーかタッチで参加できます",
-        
-        // callback: () => {
-        //     WA.nav.goToPage('https://www.wikipedia.org/');
-        //     // WA.chat.sendChatMessage("confirmed", "trigger message logic")
-        // }
-        // }): ActionMessage
-
-
-        // WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
-
-        
-        // if(ua.indexOf("macintosh") !== -1) {
-            
-
-        // }
-
-        // if(ua.indexOf("macintosh") !== -1) {
-        //     WA.nav.goToPage('https://www.wikipedia.org/');
-        // }
-        
-
-        
+    WA.room.onEnterLayer('red-rollcake').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
+            }
+        });
     })
 
     // meeting-refererence#userInfo.displayName="nwoodhouse"
