@@ -895,14 +895,14 @@ WA.onInit().then(() => {
         });
     })
 
-    WA.room.onEnterLayer('red-rollcake').subscribe(() => {
-        const triggerMessage = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
-            callback: () => {
-                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
-            }
-        });
-    })
+    // WA.room.onEnterLayer('red-rollcake').subscribe(() => {
+    //     const triggerMessage = WA.ui.displayActionMessage({
+    //         message: "Spaceキーかタッチで参加できます",
+    //         callback: () => {
+    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
+    //         }
+    //     });
+    // })
 
     // WA.room.onEnterLayer('red-creampann').subscribe(() => {
     //     const triggerMessage = WA.ui.displayActionMessage({

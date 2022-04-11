@@ -1268,7 +1268,7 @@
                  "name":"red-rollcake",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1280,7 +1280,7 @@
                  "name":"red-creampann",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1292,7 +1292,7 @@
                  "name":"red-shiopann",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1304,7 +1304,7 @@
                  "name":"red-cinnamonroll",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1316,7 +1316,7 @@
                  "name":"red-chocolatecookie",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
@@ -1328,7 +1328,7 @@
                  "name":"red-currypann",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":70,
                  "x":0,
                  "y":0
