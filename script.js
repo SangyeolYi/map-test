@@ -889,14 +889,27 @@ WA.onInit().then(() => {
 
         // }
 
-        WA.ui.displayActionMessage({
+        const triggerMessage = WA.ui.displayActionMessage({
             message: "SSSSSSpaceキーかタッチで参加できます",
+            callback: () => {
+                WA.chat.sendChatMessage("confirmed", "trigger message logic")
+            }
+        });
         
-        callback: () => {
-            WA.nav.goToPage('https://www.wikipedia.org/');
-            // WA.chat.sendChatMessage("confirmed", "trigger message logic")
-        }
-        }): ActionMessage
+        setTimeout(() => {
+            // later
+            triggerMessage.remove();
+        }, 1000)
+
+
+        // WA.ui.displayActionMessage({
+        //     message: "SSSSSSpaceキーかタッチで参加できます",
+        
+        // callback: () => {
+        //     WA.nav.goToPage('https://www.wikipedia.org/');
+        //     // WA.chat.sendChatMessage("confirmed", "trigger message logic")
+        // }
+        // }): ActionMessage
 
 
         WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
