@@ -949,21 +949,21 @@ WA.onInit().then(() => {
 
     
 
+    
+
+
+    // WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
+    //     const triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom36.katariba.in');
+    //         }
+    //     });
+    // })
 
 
 
-    WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
-        const triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom36.katariba.in');
-            }
-        });
-    })
-
-
-
-    WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+    // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
     // // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     // bootstrapExtra().then(() => {
