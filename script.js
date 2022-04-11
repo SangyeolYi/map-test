@@ -896,7 +896,7 @@ WA.onInit().then(() => {
     })
 
     WA.room.onEnterLayer('red-rollcake').subscribe(() => {
-        let triggerMessage = WA.ui.displayActionMessage({
+        let triggerMessage2 = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
