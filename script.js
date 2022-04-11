@@ -882,21 +882,28 @@ WA.onInit().then(() => {
 
 
     WA.room.onEnterLayer('redirect-roomk-melonpann').subscribe(() => {
+        
+        WA.nav.goToPage('https://www.wikipedia.org/');
+        
         // if(ua.indexOf("android 6.") !== -1) {
-        //     WA.nav.goToPage('https://www.wikipedia.org/');
+        
         // }
 
+        // if(ua.indexOf("macintosh") !== -1) {
+        //     WA.ui.displayActionMessage({
+        //         message: "SSSSSSpaceキーかタッチで参加できます",
+            
+        //     callback: () => {
+        //         WA.nav.goToPage('https://www.wikipedia.org/');
+        //         // WA.chat.sendChatMessage("confirmed", "trigger message logic")
+        //     }
+        //     }): ActionMessage
 
-        // WA.ui.displayActionMessage({
-        //     message: string,
-        //     callback: () => void,
-        //     type?: "message"|"warning",
-        // }): ActionMessage
+        // }
 
-
-        if(ua.indexOf("macintosh") !== -1) {
-            WA.nav.goToPage('https://www.wikipedia.org/');
-        }
+        // if(ua.indexOf("macintosh") !== -1) {
+        //     WA.nav.goToPage('https://www.wikipedia.org/');
+        // }
         
 
         
@@ -920,4 +927,9 @@ WA.onInit().then(() => {
     
 }).catch(e => console.error(e));
 
-
+class ActionMessage {
+    /**
+     * Hides the message
+     */
+    remove() {};
+}
