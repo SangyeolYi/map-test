@@ -904,6 +904,49 @@ WA.onInit().then(() => {
         });
     })
 
+    WA.room.onEnterLayer('red-creampann').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcreampann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+
+    WA.room.onEnterLayer('red-shiopann').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkshiopann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+
+    WA.room.onEnterLayer('red-cinnamonroll').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcinnamonroll#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onEnterLayer('red-currypann').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcurrypann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onEnterLayer('red-chocolatecookie').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkchocolatecookie#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+
     // meeting-refererence#userInfo.displayName="nwoodhouse"
 
     // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
