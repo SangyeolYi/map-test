@@ -895,14 +895,14 @@ WA.onInit().then(() => {
         });        
     })
 
-    WA.room.onEnterLayer('red-rollcake').subscribe(() => {
-        let triggerMessage2 = WA.ui.displayActionMessage({
-            message: "Spaceキーかタッチで参加できます",
-            callback: () => {
-                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
-            }
-        });        
-    })
+    // WA.room.onEnterLayer('red-rollcake').subscribe(() => {
+    //     let triggerMessage2 = WA.ui.displayActionMessage({
+    //         message: "Spaceキーかタッチで参加できます",
+    //         callback: () => {
+    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
+    //         }
+    //     });        
+    // })
 
     // meeting-refererence#userInfo.displayName="nwoodhouse"
 
