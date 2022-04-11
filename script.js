@@ -880,13 +880,12 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
     let ua = window.navigator.userAgent.toLowerCase();
     let userName = WA.player.name
-    // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
-    // if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
-        
-
-    // }
     let triggerMessage
 
+
+    // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
+    if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
+        
     WA.room.onEnterLayer('zone/red/red-melonpann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
@@ -969,7 +968,7 @@ WA.onInit().then(() => {
         triggerMessage.remove();
     })
 
-    
+    }
 
     
 
