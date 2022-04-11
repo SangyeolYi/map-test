@@ -881,10 +881,10 @@ WA.onInit().then(() => {
     let ua = window.navigator.userAgent.toLowerCase();
 
 
-    WA.room.onEnterLayer('redirect-roomk-melonpann').subscribe(() => {
+    WA.room.onEnterLayer('myzone').subscribe(() => {
         
         WA.nav.goToPage('https://www.wikipedia.org/');
-        
+
         // if(ua.indexOf("android 6.") !== -1) {
         
         // }
