@@ -883,23 +883,27 @@ WA.onInit().then(() => {
 
     WA.room.onEnterLayer('red-melonpann').subscribe(() => {
         
+        // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
+        // if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
         
+
+        // }
+
+        WA.ui.displayActionMessage({
+            message: "SSSSSSpaceキーかタッチで参加できます",
+        
+        callback: () => {
+            WA.nav.goToPage('https://www.wikipedia.org/');
+            // WA.chat.sendChatMessage("confirmed", "trigger message logic")
+        }
+        }): ActionMessage
+
 
         WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
 
-        // if(ua.indexOf("android 6.") !== -1) {
         
-        // }
-
         // if(ua.indexOf("macintosh") !== -1) {
-        //     WA.ui.displayActionMessage({
-        //         message: "SSSSSSpaceキーかタッチで参加できます",
             
-        //     callback: () => {
-        //         WA.nav.goToPage('https://www.wikipedia.org/');
-        //         // WA.chat.sendChatMessage("confirmed", "trigger message logic")
-        //     }
-        //     }): ActionMessage
 
         // }
 
