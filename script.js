@@ -892,7 +892,7 @@ WA.onInit().then(() => {
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
             }
-        }):ActionMessage
+        })
     })
 
     // WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
