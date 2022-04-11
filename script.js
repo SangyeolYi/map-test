@@ -887,7 +887,7 @@ WA.onInit().then(() => {
     // }
     let triggerMessage
 
-    WA.room.onEnterLayer('red-melonpann').subscribe(() => {
+    WA.room.onEnterLayer('red/red-melonpann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
@@ -895,76 +895,97 @@ WA.onInit().then(() => {
             }
         })
     })
-
     WA.room.onLeaveLayer('red-melonpann').subscribe(() => {
         triggerMessage.remove();
     })
 
-    // WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkrollcake#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-melonpann').subscribe(() => {
+        triggerMessage.remove();
+    })
 
-    // WA.room.onEnterLayer('red/red-creampann').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcreampann#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('red/red-creampann').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcreampann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-creampann').subscribe(() => {
+        triggerMessage.remove();
+    })
 
-    // WA.room.onEnterLayer('red-shiopann').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkshiopann#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('red/red-shiopann').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkshiopann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-shiopann').subscribe(() => {
+        triggerMessage.remove();
+    })
 
-    // WA.room.onEnterLayer('red-cinnamonroll').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcinnamonroll#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
-    // WA.room.onEnterLayer('red-currypann').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcurrypann#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
-    // WA.room.onEnterLayer('red-chocolatecookie').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "Spaceキーかタッチで参加できます",
-    //         callback: () => {
-    //             WA.nav.goToPage('https://jitsi.katariba.online/globalroomkchocolatecookie#userInfo.displayName="'+ userName + '"');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('red/red-cinnamonroll').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcinnamonroll#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-cinnamonroll').subscribe(() => {
+        triggerMessage.remove();
+    })
+    WA.room.onEnterLayer('red/red-currypann').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkcurrypann#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-currypann').subscribe(() => {
+        triggerMessage.remove();
+    })
+    WA.room.onEnterLayer('red/red-chocolatecookie').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "Spaceキーかタッチで参加できます",
+            callback: () => {
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkchocolatecookie#userInfo.displayName="'+ userName + '"');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('red-chocolatecookie').subscribe(() => {
+        triggerMessage.remove();
+    })
 
     
 
     
 
 
-    // WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "SpaceキーかタッチでZoomに移動します",
-    //         callback: () => {
-    //             WA.nav.goToPage('http://zoom36.katariba.in');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
+        triggerMessage = WA.ui.displayActionMessage({
+            message: "SpaceキーかタッチでZoomに移動します",
+            callback: () => {
+                WA.nav.goToPage('http://zoom36.katariba.in');
+            }
+        });
+    })
+    WA.room.onLeaveLayer('zoomURL/zoom36').subscribe(() => {
+        triggerMessage.remove();
+    })
+
 
 
 
