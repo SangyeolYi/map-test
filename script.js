@@ -884,7 +884,7 @@ WA.onInit().then(() => {
 
 
     // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
-    // if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
+    if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
         
     WA.room.onEnterLayer('zone/red/red-melonpann').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
@@ -968,7 +968,7 @@ WA.onInit().then(() => {
         triggerMessage.remove();
     })
 
-    // }
+    }
 
     
 
@@ -1094,26 +1094,6 @@ WA.onInit().then(() => {
     })
 
 
-
-    // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
-
-    // // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-    // bootstrapExtra().then(() => {
-    //     console.log('Scripting API Extra ready');
-    // }).catch(e => console.error(e));
-
-    // function closePopUp(){
-    //     if (currentPopup !== undefined) {
-    //         currentPopup.close();
-    //         currentPopup = undefined;
-    //     }
-    // }
     
 }).catch(e => console.error(e));
 
-class ActionMessage {
-    /**
-     * Hides the message
-     */
-    remove() {};
-}
