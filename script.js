@@ -894,7 +894,7 @@ WA.onInit().then(() => {
         //     // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
         // }else 
         
-        if(ua.indexOf("android") !== -1 && ua.indexOf("6.") !== -1) {
+        if(ua.indexOf("android 6.") !==) {
             WA.nav.goToPage('https://jitsi.katariba.online/globaljsleore');
             // currentPopup = WA.ui.openPopup("clockPopup","It's " + time,[]);
         }
