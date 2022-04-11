@@ -887,12 +887,12 @@ WA.onInit().then(() => {
     // }
 
     WA.room.onEnterLayer('red-melonpann').subscribe(() => {
-        const triggerMessage = WA.ui.displayActionMessage({
+        WA.ui.displayActionMessage({
             message: "Spaceキーかタッチで参加できます",
             callback: () => {
                 WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
             }
-        });
+        }):ActionMessage
     })
 
     WA.room.onEnterLayer('red/red-rollcake').subscribe(() => {
@@ -952,18 +952,18 @@ WA.onInit().then(() => {
 
 
 
-    // WA.room.onEnterLayer('zoom36').subscribe(() => {
-    //     const triggerMessage = WA.ui.displayActionMessage({
-    //         message: "SpaceキーかタッチでZoomに移動します",
-    //         callback: () => {
-    //             WA.nav.goToPage('http://zoom36.katariba.in');
-    //         }
-    //     });
-    // })
+    WA.room.onEnterLayer('zoomURL/zoom36').subscribe(() => {
+        const triggerMessage = WA.ui.displayActionMessage({
+            message: "SpaceキーかタッチでZoomに移動します",
+            callback: () => {
+                WA.nav.goToPage('http://zoom36.katariba.in');
+            }
+        });
+    })
 
-    // meeting-refererence#userInfo.displayName="nwoodhouse"
 
-    // WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
+
+    WA.room.onLeaveLayer('clockZone').subscribe(closePopUp)
 
     // // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     // bootstrapExtra().then(() => {
