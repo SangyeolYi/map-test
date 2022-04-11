@@ -892,7 +892,8 @@ WA.onInit().then(() => {
         const triggerMessage = WA.ui.displayActionMessage({
             message: "SSSSSSpaceキーかタッチで参加できます",
             callback: () => {
-                WA.chat.sendChatMessage("confirmed", "trigger message logic")
+                WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
+                // WA.chat.sendChatMessage("confirmed", "trigger message logic")
             }
         });
         
@@ -912,7 +913,7 @@ WA.onInit().then(() => {
         // }): ActionMessage
 
 
-        WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
+        // WA.nav.goToPage('https://jitsi.katariba.online/globalroomkmelonpann#userInfo.displayName="'+ userName + '"');
 
         
         // if(ua.indexOf("macintosh") !== -1) {
