@@ -971,115 +971,131 @@ WA.onInit().then(() => {
     }
 
     
+    for (let s = 36; s < 50; s++){
+        let roomNum = s
+
+        WA.room.onEnterLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
+            triggerMessage = WA.ui.displayActionMessage({
+                message: 'SpaceキーかタッチでZoom'+roomNum+'に移動します',
+                callback: () => {
+                    WA.nav.goToPage('http://zoom'+roomNum+'.katariba.in');
+                }
+            });
+        })
+        WA.room.onLeaveLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
+            triggerMessage.remove();
+        })
+
+    }
 
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom36').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom36.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom36').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom36').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom36.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom36').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
     
-    WA.room.onEnterLayer('zone/zoomURL/zoom37').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom37.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom37').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom37').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom37.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom37').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom39').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom39.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom39').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom39').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom39.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom39').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom40').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom40.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom40').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom40').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom40.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom40').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom41').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom41.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom41').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom41').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom41.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom41').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom42').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom42.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom42').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom42').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom42.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom42').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom43').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom43.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom43').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom43').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom43.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom43').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom44').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom44.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom44').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom44').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom44.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom44').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
-    WA.room.onEnterLayer('zone/zoomURL/zoom45').subscribe(() => {
-        triggerMessage = WA.ui.displayActionMessage({
-            message: "SpaceキーかタッチでZoomに移動します",
-            callback: () => {
-                WA.nav.goToPage('http://zoom45.katariba.in');
-            }
-        });
-    })
-    WA.room.onLeaveLayer('zone/zoomURL/zoom45').subscribe(() => {
-        triggerMessage.remove();
-    })
+    // WA.room.onEnterLayer('zone/zoomURL/zoom45').subscribe(() => {
+    //     triggerMessage = WA.ui.displayActionMessage({
+    //         message: "SpaceキーかタッチでZoomに移動します",
+    //         callback: () => {
+    //             WA.nav.goToPage('http://zoom45.katariba.in');
+    //         }
+    //     });
+    // })
+    // WA.room.onLeaveLayer('zone/zoomURL/zoom45').subscribe(() => {
+    //     triggerMessage.remove();
+    // })
 
     WA.room.onEnterLayer('zone/zoomURL/zoom04').subscribe(() => {
         triggerMessage = WA.ui.displayActionMessage({
