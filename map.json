@@ -194,7 +194,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -222,7 +222,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -250,7 +250,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -278,7 +278,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -306,7 +306,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
@@ -334,7 +334,7 @@
                                 {
                                  "name":"jitsiTriggerMessage",
                                  "type":"string",
-                                 "value":"Shift\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
+                                 "value":"Space\u30ad\u30fc\u304b\u30bf\u30c3\u30c1\u3067\u53c2\u52a0\u3067\u304d\u307e\u3059"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
