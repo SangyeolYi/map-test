@@ -887,7 +887,7 @@ WA.onInit().then(() => {
     let mtgRoomNames = ['melonpann','rollcake','creampann','shiopann','cinnamonroll','currypann','chocolatecookie']
 
     // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
-    if(ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
+    if(ua.indexOf("android 3.") !== -1 ||ua.indexOf("android 4.") !== -1 ||ua.indexOf("android 5.") !== -1 ||ua.indexOf("android 6.") !== -1 || ua.indexOf("android 7.") !== -1 || ua.indexOf("android 8.") !== -1) {
     
 
         for (let s = 0; s < mtgRoomNames.length; s++){
