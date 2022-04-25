@@ -1281,7 +1281,7 @@
                  "y":841.578125
                 }, 
                 {
-                 "height":28,
+                 "height":22,
                  "id":76,
                  "name":"text",
                  "rotation":0,
@@ -1289,7 +1289,6 @@
                     {
                      "color":"#00b88b",
                      "fontfamily":"Hiragino Sans",
-                     "halign":"center",
                      "pixelsize":18,
                      "text":"\u7802\u4e18\u306e\u3057\u3093\u3067\u3093",
                      "wrap":true
@@ -1297,8 +1296,8 @@
                  "type":"",
                  "visible":true,
                  "width":236.625,
-                 "x":1692.34652545113,
-                 "y":1477.47632049756
+                 "x":1749.88077202647,
+                 "y":1484.32563556605
                 }, 
                 {
                  "height":28,
@@ -1349,7 +1348,6 @@
                     {
                      "color":"#4b6aff",
                      "fontfamily":"Hiragino Sans",
-                     "halign":"center",
                      "pixelsize":18,
                      "text":"\u3086\u3046\u304e\u306e\u821e\u53f0",
                      "wrap":true
@@ -1357,8 +1355,8 @@
                  "type":"",
                  "visible":true,
                  "width":236.625,
-                 "x":1572.77819155071,
-                 "y":941.29757489248
+                 "x":1633.05216415345,
+                 "y":939.927711878781
                 }, 
                 {
                  "height":28,
