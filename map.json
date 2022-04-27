@@ -810,7 +810,7 @@
                          "opacity":1,
                          "properties":[
                                 {
-                                 "name":"openTab",
+                                 "name":"openWebsite",
                                  "type":"string",
                                  "value":"https:\/\/script.google.com\/a\/macros\/katariba.net\/s\/AKfycbycthGJi6oLmouleoUjmWekqDt1PsbB2MtoWtkHvggHtUf0hnMQvORIMcNvH5q6-ztT\/exec"
                                 }, 
@@ -822,7 +822,7 @@
                                 {
                                  "name":"openWebsiteTriggerMessage",
                                  "type":"string",
-                                 "value":"Space\u304b\u30bf\u30c3\u30c1\u3067\u958b\u304f"
+                                 "value":"Zoom\u306e\u30e2\u30cb\u30bf\u30fc\u3092\u958b\u304f"
                                 }],
                          "type":"tilelayer",
                          "visible":true,
