@@ -893,7 +893,7 @@ WA.onInit().then(() => {
         for (let s = 0; s < mtgRoomNames.length; s++){
             let mtgRoom = mtgRoomNames[s]
 
-            WA.room.onEnterLayer('zone/red/red-'+mtgRoom).subscribe(() => {
+            WA.room.onEnterLayer('red/red-'+mtgRoom).subscribe(() => {
                 triggerMessage = WA.ui.displayActionMessage({
                     message: "タブレット利用者はこっちをタッチして部屋に移動してください",
                     callback: () => {
@@ -901,7 +901,7 @@ WA.onInit().then(() => {
                     }
                 })
             })
-            WA.room.onLeaveLayer('zone/red/red-'+mtgRoom).subscribe(() => {
+            WA.room.onLeaveLayer('red/red-'+mtgRoom).subscribe(() => {
                 triggerMessage.remove();
             })
 
