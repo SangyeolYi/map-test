@@ -8172,19 +8172,19 @@
         }, 
         {
          "firstgid":22406,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco1.tsx"
+         "source":"src\/assets\/chillin-at-the-beach\/Deco1.xml"
         }, 
         {
          "firstgid":24286,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco2.tsx"
+         "source":"src\/assets\/chillin-at-the-beach\/Deco2.xml"
         }, 
         {
          "firstgid":25046,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco3.tsx"
+         "source":"src\/assets\/chillin-at-the-beach\/Deco3.xml"
         }, 
         {
          "firstgid":27350,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco4.tsx"
+         "source":"src\/assets\/chillin-at-the-beach\/Deco4.xml"
         }],
  "tilewidth":32,
  "type":"map",
