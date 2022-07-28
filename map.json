@@ -5101,35 +5101,16 @@
                         }, 
                         {
                          "class":"",
-                         "height":22,
-                         "id":76,
-                         "name":"text",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#00b88b",
-                             "fontfamily":"Hiragino Sans",
-                             "pixelsize":18,
-                             "text":"\u7802\u4e18\u306e\u3057\u3093\u3067\u3093",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":236.625,
-                         "x":1749.88077202647,
-                         "y":1484.32563556605
-                        }, 
-                        {
-                         "class":"",
                          "height":28,
                          "id":77,
-                         "name":"text",
+                         "name":"Study Area",
                          "rotation":0,
                          "text":
                             {
                              "bold":true,
                              "fontfamily":"Hiragino Sans",
                              "pixelsize":18,
-                             "text":"\u30b9\u30bf\u30c7\u30a3\u30fc\u30eb\u30fc\u30e0",
+                             "text":"\u30b9\u30bf\u30c7\u30a3\u30a8\u30ea\u30a2",
                              "wrap":true
                             },
                          "visible":true,
@@ -5140,27 +5121,8 @@
                         {
                          "class":"",
                          "height":28,
-                         "id":78,
-                         "name":"text",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#ffffff",
-                             "fontfamily":"Hiragino Sans",
-                             "pixelsize":18,
-                             "text":"\u3064\u3069\u3044\u306e\u3055\u3093\u3070\u3057",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":236.625,
-                         "x":1240,
-                         "y":1950
-                        }, 
-                        {
-                         "class":"",
-                         "height":28,
                          "id":80,
-                         "name":"text",
+                         "name":"Program Room1",
                          "rotation":0,
                          "text":
                             {
@@ -5178,46 +5140,8 @@
                         {
                          "class":"",
                          "height":28,
-                         "id":85,
-                         "name":"text",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#10ffe8",
-                             "fontfamily":"Hiragino Sans",
-                             "pixelsize":18,
-                             "text":"\u5e1d\u738b\u306e\u3068\u3046\u304e\u3058\u3087\u3046",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":236.625,
-                         "x":312.941798231804,
-                         "y":107.495338717603
-                        }, 
-                        {
-                         "class":"",
-                         "height":28,
-                         "id":86,
-                         "name":"text",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#ff0000",
-                             "fontfamily":"Hiragino Sans",
-                             "pixelsize":18,
-                             "text":"\u592a\u53e4\u306e\u3044\u305a\u307f",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":236.625,
-                         "x":879.555830774956,
-                         "y":234.769818526138
-                        }, 
-                        {
-                         "class":"",
-                         "height":28,
                          "id":82,
-                         "name":"text",
+                         "name":"Entrance",
                          "rotation":0,
                          "text":
                             {
@@ -5236,7 +5160,7 @@
                          "class":"",
                          "height":28,
                          "id":83,
-                         "name":"text",
+                         "name":"Living Room",
                          "rotation":0,
                          "text":
                             {
@@ -5255,7 +5179,7 @@
                          "class":"",
                          "height":28,
                          "id":81,
-                         "name":"text",
+                         "name":"Program Room2",
                          "rotation":0,
                          "text":
                             {
@@ -5274,7 +5198,7 @@
                          "class":"",
                          "height":28,
                          "id":79,
-                         "name":"text",
+                         "name":"Meeting Room",
                          "rotation":0,
                          "text":
                             {
@@ -5293,7 +5217,7 @@
                          "class":"",
                          "height":28,
                          "id":87,
-                         "name":"text",
+                         "name":"Game Area",
                          "rotation":0,
                          "text":
                             {
@@ -5313,7 +5237,7 @@
                          "class":"",
                          "height":18.84375,
                          "id":69,
-                         "name":"",
+                         "name":"Quiet Area",
                          "rotation":0,
                          "text":
                             {
@@ -5330,7 +5254,7 @@
                          "class":"",
                          "height":18.84375,
                          "id":90,
-                         "name":"text",
+                         "name":"Staff Room",
                          "rotation":0,
                          "text":
                             {
