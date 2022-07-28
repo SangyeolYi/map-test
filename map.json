@@ -5508,6 +5508,25 @@
                          "width":125.625,
                          "x":802.588304289544,
                          "y":835.99903652815
+                        }, 
+                        {
+                         "class":"",
+                         "height":18.84375,
+                         "id":90,
+                         "name":"text",
+                         "rotation":0,
+                         "text":
+                            {
+                             "bold":true,
+                             "fontfamily":"Hiragino Sans",
+                             "pixelsize":18,
+                             "text":"\u30b9\u30bf\u30c3\u30d5\u30eb\u30fc\u30e0",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":125.625,
+                         "x":510,
+                         "y":1000
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -6248,8 +6267,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":337,
- "nextobjectid":90,
+ "nextlayerid":339,
+ "nextobjectid":91,
  "orientation":"orthogonal",
  "properties":[
         {
