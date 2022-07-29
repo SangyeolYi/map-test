@@ -8140,20 +8140,56 @@
          "tilewidth":32
         }, 
         {
+         "columns":40,
          "firstgid":22406,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco1.xml"
+         "image":"src\/assets\/chillin-at-the-beach\/Deco1.png",
+         "imageheight":1504,
+         "imagewidth":1280,
+         "margin":0,
+         "name":"Deco1",
+         "spacing":0,
+         "tilecount":1880,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":40,
          "firstgid":24286,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco2.xml"
+         "image":"src\/assets\/chillin-at-the-beach\/Deco2.png",
+         "imageheight":608,
+         "imagewidth":1280,
+         "margin":0,
+         "name":"Deco2",
+         "spacing":0,
+         "tilecount":760,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":32,
          "firstgid":25046,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco3.xml"
+         "image":"src\/assets\/chillin-at-the-beach\/Deco3.png",
+         "imageheight":2304,
+         "imagewidth":1024,
+         "margin":0,
+         "name":"Deco3",
+         "spacing":0,
+         "tilecount":2304,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":40,
          "firstgid":27350,
-         "source":"src\/assets\/chillin-at-the-beach\/Deco4.xml"
+         "image":"src\/assets\/chillin-at-the-beach\/Deco4.png",
+         "imageheight":2304,
+         "imagewidth":1280,
+         "margin":0,
+         "name":"Deco4",
+         "spacing":0,
+         "tilecount":2880,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
