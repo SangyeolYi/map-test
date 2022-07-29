@@ -998,13 +998,13 @@
                             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                          "height":65,
                          "id":336,
-                         "name":"roomk-meeting4",
+                         "name":"roomk-Rocky",
                          "opacity":1,
                          "properties":[
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"roomk-meeting4"
+                                 "value":"roomk-Rocky"
                                 }, 
                                 {
                                  "name":"jitsiTrigger",
@@ -1090,13 +1090,13 @@
                             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                          "height":65,
                          "id":337,
-                         "name":"roomk-meeting3",
+                         "name":"roomk-Everest",
                          "opacity":1,
                          "properties":[
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"roomk-meeting3"
+                                 "value":"roomk-Everest"
                                 }, 
                                 {
                                  "name":"jitsiTrigger",
@@ -1182,13 +1182,13 @@
                             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                          "height":65,
                          "id":338,
-                         "name":"roomk-meeting2",
+                         "name":"roomk-MountFuji",
                          "opacity":1,
                          "properties":[
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"roomk-meeting2"
+                                 "value":"MountFuji"
                                 }, 
                                 {
                                  "name":"jitsiTrigger",
@@ -1274,13 +1274,13 @@
                             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                          "height":65,
                          "id":339,
-                         "name":"roomk-meeting1",
+                         "name":"roomk-Kilimanjaro",
                          "opacity":1,
                          "properties":[
                                 {
                                  "name":"jitsiRoom",
                                  "type":"string",
-                                 "value":"roomk-meeting1"
+                                 "value":"Kilimanjaro"
                                 }, 
                                 {
                                  "name":"jitsiTrigger",
