@@ -936,7 +936,7 @@ WA.onInit().then(() => {
     }
 
     
-    for (let s = 4; s < 50; s++){
+    for (let s = 4; s < 100; s++){
         let roomNum = ("0" + s).slice(-2)
         WA.room.onEnterLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
             triggerMessage = WA.ui.displayActionMessage({
