@@ -21,6 +21,3 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 }).catch(e => console.error(e));
-© 2022 GitHub, Inc.
-Terms
-Privacy
