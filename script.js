@@ -881,7 +881,8 @@
 
 
 WA.onInit().then(() => {
-  location.href = 'https://play.vs.katariba.online';
+  // location.href = 'https://play.vs.katariba.online';
+  WA.nav.goToPage('https://play.vs.katariba.online');
     // console.log('Scripting API ready');
     // console.log('Player tags: ',WA.player.tags)
     // let ua = window.navigator.userAgent.toLowerCase();
