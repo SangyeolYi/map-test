@@ -1,4 +1,4 @@
-location.href = 'https://play.vs.katariba.online/';
+location.href = 'https://play.vs.katariba.online';
 
 
 // /*! For license information please see script.js.LICENSE.txt */
