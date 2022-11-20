@@ -2,7 +2,7 @@
 
 WA.onInit().then(() => {
   // location.href = 'https://play.vs.katariba.online';
-  WA.nav.goToPage('https://play.vs.katariba.online/_/global/play.vs.katariba.online/maps/room-k/map.json');
+  // WA.nav.goToPage('https://play.vs.katariba.online/_/global/play.vs.katariba.online/maps/room-k/map.json');
     // console.log('Scripting API ready');
     // console.log('Player tags: ',WA.player.tags)
     // let ua = window.navigator.userAgent.toLowerCase();
