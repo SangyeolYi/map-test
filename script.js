@@ -84,7 +84,7 @@ WA.onInit().then(() => {
           triggerMessage = WA.ui.displayActionMessage({
               message: 'SpaceキーかタッチでZoom'+roomNum+'を開きます',
               callback: () => {
-                // coWebsite = await WA.nav.openCoWebSite(url, true, "camera;microphone", 70, 1, true, true);
+                coWebsite = WA.nav.openCoWebSite(url, true, "camera;microphone", 70, 1, true, true);
               }
           });
       })
