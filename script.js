@@ -77,16 +77,17 @@ WA.onInit().then(() => {
   
   for (let s = 36; s < 38; s++){
       let roomNum = ("0" + s).slice(-2)
-      let meetingID = zoomMeetingIDs.roomNum
+      let meetingID = "5356415262"
       let coWebsite
       let url = "https://zoom-sdk-web.vercel.app:/meeting.html?name=Q0ROMi45LjBNYWMjY2hyb21lLzEwNi4wLjAuMA%3D%3D&mn=3715273694&email=&pwd=&role=0&lang=jp-JP&signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJMazkzbUdGRDNaUFB5aUtNc05IQ1psbTd2NFh6MENiTGFNZW8iLCJpYXQiOjE2Njg5NDcxMTUsImV4cCI6MTY2ODk1NDMxNSwibW4iOjM3MTUyNzM2OTQsInJvbGUiOjB9.KwHtUWC1RqAoIxu45fAPp7cUC7w3cqjJuIOiVn49GJs&china=0&sdkKey=Lk93mGFD3ZPPyiKMsNHCZlm7v4Xz0CbLaMeo"
       WA.room.onEnterLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
-          triggerMessage = WA.ui.displayActionMessage({
-              message: 'SpaceキーかタッチでZoom'+roomNum+'を開きます~~11',
-              callback: () => {
-                coWebsite = await WA.nav.openCoWebSite('https://www.wikipedia.org/');
-              }
-          });
+        coWebsite = await WA.nav.openCoWebSite('https://www.wikipedia.org/');
+          // triggerMessage = WA.ui.displayActionMessage({
+          //     message: 'SpaceキーかタッチでZoom'+roomNum+'を開きます~~11',
+          //     callback: () => {
+          //       coWebsite = await WA.nav.openCoWebSite('https://www.wikipedia.org/');
+          //     }
+          // });
       })
       WA.room.onLeaveLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
           triggerMessage.remove();
