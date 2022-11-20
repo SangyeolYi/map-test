@@ -90,11 +90,8 @@ WA.onInit().then(() => {
           // });
       })
       WA.room.onLeaveLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
-        coWebsites = WA.nav.getCowebSites();
-        coWebsites.forEach((coWebsite) => {
-          coWebsite.close();
-        });
-        // coWebsite.close();
+        coWebsite = WA.nav.openCoWebSite('https://www.wikipedia.org/');
+        coWebsite.close();
         triggerMessage.remove();
       })
 
