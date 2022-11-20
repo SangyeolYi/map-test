@@ -90,9 +90,9 @@ WA.onInit().then(() => {
           // });
       })
       WA.room.onLeaveLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
-        coWebsite = WA.nav.openCoWebSite('https://www.wikipedia.org/');
+        // coWebsite = WA.nav.openCoWebSite('https://www.wikipedia.org/');
         coWebsite.close();
-        triggerMessage.remove();
+        // triggerMessage.remove();
       })
 
   }
