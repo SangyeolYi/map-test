@@ -79,12 +79,12 @@ WA.onInit().then(() => {
       let roomNum = ("0" + s).slice(-2)
       let meetingID = zoomMeetingIDs.roomNum
       let coWebsite
-      let url = "https://zoom-sdk-web.vercel.app:/meeting.html?name=Q0ROMi45LjBNYWMjY2hyb21lLzEwNi4wLjAuMA%3D%3D&mn="+meetingID+"&email=&pwd=&role=0&lang=jp-JP&signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJMazkzbUdGRDNaUFB5aUtNc05IQ1psbTd2NFh6MENiTGFNZW8iLCJpYXQiOjE2Njg5NDY1MjIsImV4cCI6MTY2ODk1MzcyMiwibW4iOjM3MTUyNzM2OTQsInJvbGUiOjB9.WLGGrsp-O3ucYHEuCL3idejyDN5w-h2Pbk2J53YlT7Q&china=0&sdkKey=Lk93mGFD3ZPPyiKMsNHCZlm7v4Xz0CbLaMeo"
+      let url = "https://zoom-sdk-web.vercel.app:/meeting.html?name=Q0ROMi45LjBNYWMjY2hyb21lLzEwNi4wLjAuMA%3D%3D&mn=3715273694&email=&pwd=&role=0&lang=jp-JP&signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJMazkzbUdGRDNaUFB5aUtNc05IQ1psbTd2NFh6MENiTGFNZW8iLCJpYXQiOjE2Njg5NDcxMTUsImV4cCI6MTY2ODk1NDMxNSwibW4iOjM3MTUyNzM2OTQsInJvbGUiOjB9.KwHtUWC1RqAoIxu45fAPp7cUC7w3cqjJuIOiVn49GJs&china=0&sdkKey=Lk93mGFD3ZPPyiKMsNHCZlm7v4Xz0CbLaMeo"
       WA.room.onEnterLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
           triggerMessage = WA.ui.displayActionMessage({
-              message: 'SpaceキーかタッチでZoom'+roomNum+'を開きます~~',
+              message: 'SpaceキーかタッチでZoom'+roomNum+'を開きます~~11',
               callback: () => {
-                coWebsite = WA.nav.openCoWebSite(url, true, "camera;microphone", 70, 1, true, true);
+                coWebsite = await WA.nav.openCoWebSite(url, true, "camera;microphone", 70, 1, true, true);
               }
           });
       })
