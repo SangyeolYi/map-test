@@ -90,8 +90,8 @@ WA.onInit().then(() => {
           // });
       })
       WA.room.onLeaveLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
-          triggerMessage.remove();
-          coWebsite.close();
+        coWebsite.close();  
+        triggerMessage.remove();
       })
 
   }
