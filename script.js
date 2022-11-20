@@ -80,7 +80,7 @@ WA.onInit().then(() => {
       let meetingID = zoomMeetingIDs.roomNum
       let url = "https://zoom-sdk-web.vercel.app:/meeting.html?name=Q0ROMi45LjBNYWMjY2hyb21lLzEwNi4wLjAuMA%3D%3D&mn="+meetingID+"&email=&pwd=&role=0&lang=jp-JP&signature=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJMazkzbUdGRDNaUFB5aUtNc05IQ1psbTd2NFh6MENiTGFNZW8iLCJpYXQiOjE2Njg5NDcxMTUsImV4cCI6MTY2ODk1NDMxNSwibW4iOjM3MTUyNzM2OTQsInJvbGUiOjB9.KwHtUWC1RqAoIxu45fAPp7cUC7w3cqjJuIOiVn49GJs&china=0&sdkKey=Lk93mGFD3ZPPyiKMsNHCZlm7v4Xz0CbLaMeo"
 
-      WA.room.setProperty('zone/zoomURL/zoom'+roomNum, "openWebsite", "https://www.wikipedia.org/");
+      WA.room.setProperty('zone/zoomURL/zoom'+roomNum, "openWebsite", "url");
       // WA.room.onEnterLayer('zone/zoomURL/zoom'+roomNum).subscribe(() => {
       //   coWebsite = WA.nav.openCoWebSite('https://www.wikipedia.org/');
       //     // triggerMessage = WA.ui.displayActionMessage({
