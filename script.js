@@ -57,7 +57,7 @@ WA.onInit().then(() => {
                 triggerMessage = WA.ui.displayActionMessage({
                     message: "タブレット利用者はこっちをタッチして部屋に移動してください",
                     callback: () => {
-                        WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}"`);
+                        WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}`);
 //                     WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}#userInfo.displayName="${userName}"`);
 //                         WA.nav.goToPage('https://jitsi.katariba.online/globalroomk'+mtgRoom+'#userInfo.displayName="'+ userName + '"');
                     }
