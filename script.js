@@ -21,25 +21,25 @@ WA.onInit().then(() => {
                         ,'mountfuji'
                         ,'everest'
                         ,'rocky'
-                        ,'studyarea100'
-                        ,'studyarea101'
-                        ,'studyarea102'
-                        ,'studyarea103'
-                        ,'studyarea104'
-                        ,'studyarea105'
-                        ,'studyarea106'
-                        ,'studyarea107'
-                        ,'studyarea108'
-                        ,'studyarea200'
-                        ,'studyarea201'
-                        ,'studyarea202'
-                        ,'studyarea203'
-                        ,'studyarea204'
-                        ,'studyarea205'
-                        ,'studyarea206'
-                        ,'studyarea207'
-                        ,'studyarea208'
-                        ,'studyarea209'
+                        ,'studyarea 100'
+                        ,'studyarea 101'
+                        ,'studyarea 102'
+                        ,'studyarea 103'
+                        ,'studyarea 104'
+                        ,'studyarea 105'
+                        ,'studyarea 106'
+                        ,'studyarea 107'
+                        ,'studyarea 108'
+                        ,'studyarea 200'
+                        ,'studyarea 201'
+                        ,'studyarea 202'
+                        ,'studyarea 203'
+                        ,'studyarea 204'
+                        ,'studyarea 205'
+                        ,'studyarea 206'
+                        ,'studyarea 207'
+                        ,'studyarea 208'
+                        ,'studyarea 209'
                     ]
 
     // Androidの6~8までは、JITSIに接続する際に、WAを終了してJITSIに直接REDIRECTさせる
@@ -55,7 +55,7 @@ WA.onInit().then(() => {
 
             WA.room.onEnterLayer('red/red-'+mtgRoom).subscribe(() => {
                 triggerMessage = WA.ui.displayActionMessage({
-                    message: "タブレット利用者はこっちをタッチして部屋に移動してください。。。",
+                    message: "タブレット利用者はこっちをタッチして部屋に移動してください。",
                     callback: () => {
 //                         WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}`);
 //                         WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}`);
