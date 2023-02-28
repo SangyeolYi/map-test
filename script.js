@@ -55,7 +55,7 @@ WA.onInit().then(() => {
 
             WA.room.onEnterLayer('red/red-'+mtgRoom).subscribe(() => {
                 triggerMessage = WA.ui.displayActionMessage({
-                    message: "タブレット利用者はこっちをタッチして部屋に移動してください",
+                    message: "タブレット利用者はこっちをタッチして部屋に移動してください。。。",
                     callback: () => {
 //                         WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}`);
 //                         WA.nav.goToPage(`https://jitsi.katariba.online/globalroomk${mtgRoom}`);
