@@ -51,7 +51,7 @@ WA.onInit().then(() => {
 //       || ua.indexOf("android 8.") !== -1) {
 
         for (let s = 0; s < mtgRoomNames.length; s++){
-            let mtgRoom = mtgRoomNames[s].toLowerCase()
+            let mtgRoom = mtgRoomNames[s]
 
             WA.room.onEnterLayer('red/red-'+mtgRoom).subscribe(() => {
                 triggerMessage = WA.ui.displayActionMessage({
